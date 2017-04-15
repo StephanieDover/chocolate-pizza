@@ -1,0 +1,207 @@
+/*reset*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+.clear-fix {
+  clear: both;
+}
+#box-1-logo-social {
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  width: 960px;
+  height: 5%;
+}
+#logo {
+  display: inline;
+  float: left;
+}
+#logo-img {
+  align: left;
+}
+#tagline {
+  align: bottom;
+  display: inline;
+  float: left;
+}
+#social {
+  float: right;
+  display: inline;
+}
+#tagline h4 {
+  font-family: 'Pacifico', cursive;
+}
+#tagline p {
+  font-family: Arial Narrow;
+  font-size: 10px;
+}
+#header {
+  margin-top: 40px;
+  clear: both;
+  position: relative;
+}
+.box2-gray-bar {
+  background-color: #EEEEEE;
+  height: 10px;
+  width:100%;
+}
+#box3-left-pizza-post {
+  width: 200px;
+  float: left;
+}
+
+#box3-text-pizza  {
+  display: inline-block;
+  font-family: Arial Narrow;
+  font-size: 26px;
+  font-weight: bolder;
+  line-height: 0;
+  margin-top: 30px;
+}
+
+#box3-text-post {
+  display: inline-block;
+  font-family: Arial Narrow;
+  font-size: 12px;
+  line-height: 0;
+}
+
+#box3-right-print {
+  height:20px;
+  width: 40px;
+  float: right;
+  margin-top:30px;
+}
+
+#box3-icon-print  {
+  display: inline;
+}
+
+#box3-text-print  {
+  font-family: Arial Narrow;
+  font-size: 8px;
+  display: inline;
+}
+#box4-image-pizza {
+  width: 960px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#box5-ingredients {
+  background-image: url(img/list-bg.png);
+  width: 960px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+#box5-combined-checklists {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+#box5-left-checklist {
+  float: left;
+
+
+
+}
+
+#box5-right-checklist {
+  float: right;
+  margin-left: 5px;
+
+}
+ul.box5-empty-checkboxes {
+  margin: 0;
+  padding: 5px 0 5px 20px;
+  list-style: none;
+  background-image: url("chocolate-pizza/unchecked.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 10px;
+}
+li.box5-empty-checkboxes {
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 0 5px 20px;
+  list-style: none;
+  background-image: url("chocolate-pizza/unchecked.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 10px;
+}
+li.box5-checked-checkboxes {
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 0 5px 20px;
+  list-style: none;
+  background-image: url("chocolate-pizza/checked.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 10px;
+}
+li {
+  font-family: Comic Sans MS;
+  margin: 10px 0px 0px 0px 0px;
+}
+#about-author {
+  margin-top: 25px;
+  margin-bottom: 90px;
+}
+#author-img {
+  margin-top: 25px;
+  display: inline;
+  float: left;
+}
+#about-author h5 {
+  display: inline-block;
+}
+#about-author p {
+  display: inline;
+}
+#meet-author {
+  margin-left: 85px;
+}
+button {
+  display: inline;
+  position: relative;
+  bottom: 30px;
+  float: right;
+  background-color: #BC7058;
+  height: 50px;
+  width: 200px;
+}
+hr {
+  margin-top: 10px;
+  width: 960px;
+  color: #EEEEEE;
+  z-index: -1;
+  align: middle;
+}
+#small-logo {
+  position: relative;
+  left: 475px;
+  bottom: 20px;
+}
+#small-logo img {
+  z-index: 1;
+}
+#box8-rights {
+  position: relative;
+  left: 340px;
+  font-family: Times New Roman;
+  font-size: 12px;
+  width:300px;
+  text-align: center;
+  height: 100px;
+}
